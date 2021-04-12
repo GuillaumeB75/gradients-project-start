@@ -1,7 +1,8 @@
-import React from "react"
+import React from 'react';
 
-const GradientTitle = ({ children }) => {
-  return <h2 className="h5 text-center">{children}</h2>
-}
+const GradientTitle = (props) => {
+  const { children } = props;
+  return <h2 className='h5 text-center'>{children}</h2>;
+};
 
-export default GradientTitle
+export default GradientTitle;
